@@ -15,7 +15,7 @@ TARGET_PREBUILT_KERNEL_DIR := device/lge/i_vzw/kernels/q
 else
 # Build kernel from source
 TARGET_KERNEL_SOURCE := kernel/lge/iproj
-TARGET_KERNEL_CONFIG := q_i_vzw_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_vs920_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 endif
 
